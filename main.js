@@ -1,12 +1,13 @@
-require(
-    [
+require([
         "esri/config",
         "esri/Map", 
         "esri/views/MapView",
         "esri/widgets/Locate",
+        "esri/widgets/Track",
+        "esri/Graphic"
     ], 
     
-    function (esriConfig, Map, MapView, Locate,) {
+    function (esriConfig, Map, MapView, Track, Graphic) {
     
         esriConfig.apiKey = "AAPK72dc730c2917464995e9e10371db321aC2zo3yfnMZOCkiVW12V-auIzcHUgITJkFEN4Pd5eIWb0xvbxKBg5YaqPSA351CGk";
 
@@ -21,15 +22,21 @@ require(
             zoom: 2
         });
 
-        const locate = new Locate({
+        const track = new Track({
             view: view,
-            useHeadingEnabled: false,
-            goToOverride: function(view, options) {
-                options.target.scale = 1500;
-                return view.goTo(options.target);
-            }
-        });
+            graphic: new Graphic({
+              symbol: {
+                type: "simple-marker",
+                size: "12px",
+                color: "green",
+                outline: {
+                  color: "red",
+                  width: "30px"
+                }
+              }
+            }),
+            useHeadingEnabled: false
+          });
           
-        view.ui.add(locate, "top-left");
-
+        view.ui.add(track, "top-left");
   });
