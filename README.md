@@ -8,7 +8,7 @@ I used VSCode as a coding environment and ArcGIS to create the API with all of t
 
 In Rexburg, there are a lot of apartments listed on Facebook Marketplace. I often see apartments and think that I should look into it and then immediately forget to do anything about it. So an app where I can see all of the apartments I liked would be helpful to me personally. So I created a simple app that displays all 30 of the apartments I've looked into. 
 
-This is a demonstration of my first version of my GIS app:
+This is a demonstration of my first version of my GIS app: 
 
 [Software Demo Video](http://youtu.be/3d65B4s9UPs?hd=1)
 
@@ -18,7 +18,7 @@ ArcGIS is a really amazing library for beginners because everything is so well d
 
 # Useful Websites
 
-ArcGIS Tutorials I Used
+ArcGIS Tutorials I Used:
 * [Create Feature Layer](https://developers.arcgis.com/documentation/mapping-apis-and-services/data-hosting/tutorials/tools/create-a-new-feature-layer/)
 * [Query a feature layer (SQL)](https://developers.arcgis.com/javascript/latest/query-a-feature-layer-sql/)
 
