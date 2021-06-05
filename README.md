@@ -10,7 +10,7 @@ In Rexburg, there are a lot of apartments listed on Facebook Marketplace. I ofte
 
 This is a demonstration of my first version of my GIS app:
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](http://youtu.be/3d65B4s9UPs?hd=1)
 
 # Development Environment
 
