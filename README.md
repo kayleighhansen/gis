@@ -18,7 +18,7 @@ ArcGIS is a really amazing library for beginners because everything is so well d
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+ArcGIS Tutorials I Used
 * [Create Feature Layer](https://developers.arcgis.com/documentation/mapping-apis-and-services/data-hosting/tutorials/tools/create-a-new-feature-layer/)
 * [Query a feature layer (SQL)](https://developers.arcgis.com/javascript/latest/query-a-feature-layer-sql/)
 
